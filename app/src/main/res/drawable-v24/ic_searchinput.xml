@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="20pt" android:width="20pt">
+        <shape android:shape="rectangle"
+            xmlns:android="http://schemas.android.com/apk/res/android" >
+            <corners android:radius="20pt"/>
+            <solid android:color="#ffffff"/>
+        </shape>
+    </item>
+    <item android:height="9pt" android:width="9pt"
+        android:drawable="@drawable/search"
+        android:gravity="center"/>
+</layer-list>
